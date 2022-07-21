@@ -1,0 +1,9 @@
+.gif{
+    display: none;
+    justify-content: center;
+}
+.gif img{
+    margin-top:50px;
+    margin-bottom:50px;
+    border-radius: 10%;
+}

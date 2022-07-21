@@ -1,0 +1,62 @@
+.btn-cv{
+    padding:20px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color:#2c6496;
+    color:white;
+    cursor: pointer;
+    border: 0;
+}
+.btn-social{
+    padding:15px;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    border:0;
+}
+.btn-social:hover{
+    background-color: #2c6496;
+    color:white;
+}
+.botones{
+    display:flex;
+    justify-content: center;
+    align-items: center;justify-content: center;
+}
+.botones div{
+    padding:30px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.social button{
+    margin: 2px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.btn-cv:hover{
+    background-color:#124471;
+}
+.botones-up{
+    display:flex;
+    justify-content: center;
+    align-items: center;justify-content: center;
+    padding-top:20px;
+}
+.botones-up button{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right:80px;
+    padding-left:80px;
+    border:0;
+    cursor: pointer;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.boton-galeria{
+    border-radius:20px 0 0 20px;
+    background-color:#2c6496;
+}
+.boton-gif{
+    border-radius:0 20px 20px 0;
+}

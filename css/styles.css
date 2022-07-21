@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Mulish', sans-serif;
+
+}
+body{
+    background-image: url('https://www.toptal.com/designers/subtlepatterns/uploads/double-bubble-outline.png');
+    background-clip: cover;
+    /*background: #F7F9F9;*/
+}
+.imagen{
+    display:flex;
+    justify-content: center;
+    padding-top:30px;
+}
+.imagen img{
+    width: 120px;
+    padding:3px;
+    border-radius: 200px 200px 200px 200px;
+-moz-border-radius: 200px 200px 200px 200px;
+-webkit-border-radius: 200px 200px 200px 200px;
+border: 3px solid #2c6496 ;
+}
+.nombres{
+    padding:15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.nombres h1{
+    font-weight: bolder;
+}
+.nombres p{
+    padding-top:5px;
+}
+.logos{
+    display:flex;
+    justify-content: center;
+}
+.logos a{
+    color:black;
+    font-size:20px;
+    padding:10px;
+}
+.logos a:hover{
+    color:#2c6496;
+}
+.datos{
+    display:flex;
+    justify-content: center;
+}
+.datos div{
+    padding:30px;
+    text-align: center;
+}
+.primero{
+    font-weight: bolder;
+    font-size:17px;
+    padding-bottom: 10px;
+}
+
+.footer{
+    display:flex;
+    justify-content: center;
+    padding:30px;
+    text-align: center;
+}
+.footer a{
+    padding-left: 20px;
+    color:black;
+}
+.footer a:hover{
+    color: #2c6496;
+}
